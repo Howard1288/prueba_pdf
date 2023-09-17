@@ -1,1 +1,1 @@
-<p> Footer de el PDF</p>
+<p> Footer de el PDF no. {PAGENO}  de {nb}</p>
