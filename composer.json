@@ -1,13 +1,12 @@
 {
-    "name": "mindef/demo",
-    "description": "Proyecto MVC demo",
+    "name": "mindef/base",
+    "description": "Proyecto MVC REPORTE",
     "type": "project",
     "config": {
         "platform-check": true,
-        "platform" : {
-            "php" : "7.2.4" 
-        }            
-            
+        "platform": {
+            "php" : "7.2.4"
+        }
     },
     "autoload": {
         "psr-4": {
@@ -18,7 +17,7 @@
         }
     },
     "require": {
-        "mpdf/mpdf": "^6.1",
+        "mpdf/mpdf": "^8.1",
         "phpmailer/phpmailer": "^6.6",
         "dompdf/dompdf": "^2.0",
         "vlucas/phpdotenv": "^5.5"

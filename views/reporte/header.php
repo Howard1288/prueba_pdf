@@ -1,1 +1,2 @@
-<p> Header de el PDF</p>
+<p>header de PDF</p>
+<?= $saludo ?>

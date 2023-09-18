@@ -1,5 +1,6 @@
 import '../scss/app.scss';
 
+
 document.addEventListener('DOMContentLoaded', (e)=> {
     const dropdown = document.querySelector('.dropdown-menu');
     dropdown.style.margin = 0;
