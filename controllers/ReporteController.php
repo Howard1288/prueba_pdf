@@ -11,7 +11,7 @@ class ReporteController {
         $venta_fecha_inicio = $_GET['venta_fecha_inicio'];
         $venta_fecha_fin = $_GET['venta_fecha_fin'];
 
-        // Obtener los datos de ventas utilizando la funcion buscar
+        // Obtener los datos utilizando la funcion buscar
         $ventas = VentaController::buscarAPI($venta_fecha_inicio, $venta_fecha_fin);
 
         // Crear un objeto mPDF
